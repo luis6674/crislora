@@ -62,12 +62,13 @@ body {
 
 .artist-name {
   font-family: var(--font-display);
-  font-size: clamp(3rem, 8vw, 7rem);
+  font-size: clamp(3rem, 8vw, 6rem);
   font-weight: 400;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--white);
   text-align: center;
+  line-height: 1.1em;
 }
 
 .cover-wrap {
@@ -296,8 +297,15 @@ footer {
   text-align: center;
   padding: 2rem 1.5rem;
   font-size: 0.8rem;
-  color: #555;
+  color: #FFF;
   letter-spacing: 0.08em;
+}
+footer a {
+  text-decoration: none;
+  color: #FFF;
+}
+footer a:hover {
+  color: #CCC;
 }
 
 /* ===================== RESPONSIVE ===================== */
