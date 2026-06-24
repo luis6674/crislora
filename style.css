@@ -20,6 +20,11 @@ html {
   scroll-behavior: smooth;
 }
 
+:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 3px;
+}
+
 body {
   background-color: var(--black);
   color: var(--white);
