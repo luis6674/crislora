@@ -222,20 +222,72 @@ body {
   opacity: 0.85;
 }
 
-#form-placeholder {
-  min-height: 200px;
-  border: 2px dashed #333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #444;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
-  max-width: 600px;
+.btn-comunidad {
+  display: inline-block;
+  padding: 0.85rem 2.8rem;
+  background-color: transparent;
+  color: var(--yellow);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 2px solid var(--yellow);
+  transition: background-color 0.2s, color 0.2s;
 }
 
-#form-placeholder::before {
-  content: '[ formulario ]';
+.btn-comunidad:hover {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+/* ===================== SITE HEADER (subpages) ===================== */
+.site-header {
+  background-color: var(--black);
+  border-bottom: 1px solid #1e1e1e;
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+}
+
+.header-name {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--white);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.header-name:hover {
+  color: var(--yellow);
+}
+
+/* ===================== COMUNIDAD PAGE ===================== */
+#comunidad-page {
+  background-color: var(--black);
+  min-height: calc(100vh - 60px);
+  position: relative;
+}
+
+#comunidad-page::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(192, 24, 12, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+#comunidad-page .section-inner {
+  position: relative;
+  z-index: 1;
+}
+
+#form-placeholder {
+  min-height: 300px;
+  border: 2px dashed #2a2a2a;
+  max-width: 600px;
 }
 
 /* ===================== FOOTER ===================== */
