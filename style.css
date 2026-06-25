@@ -330,14 +330,6 @@ body {
 }
 
 /* ===================== NEWSLETTER FORM ===================== */
-
-/* Override Bootstrap green (success) with brand red */
-:root {
-  --bs-success:           var(--red);
-  --bs-success-rgb:       192, 24, 12;
-  --bs-form-valid-color:  var(--red);
-  --bs-form-valid-border-color: var(--red);
-}
 #newsletter-form {
   display: flex;
   align-content: center;
