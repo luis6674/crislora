@@ -273,8 +273,7 @@ body {
 
 /* ===================== COMUNIDAD ===================== */
 #comunidad {
-  background-color: var(--black);
-  border-top: 1px solid #1e1e1e;
+  background-color: var(--red-bg);
 }
 
 .comunidad-desc {
