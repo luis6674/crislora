@@ -313,10 +313,6 @@ body {
   min-height: calc(100vh - var(--navbar-h) - 80px);
 }
 
-#comunidad-page .section-inner {
-  padding: 4rem 1.5rem;
-}
-
 #comunidad-page .section-title {
   text-align: center;
   margin-bottom: 0.5rem;
