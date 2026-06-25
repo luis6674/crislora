@@ -446,6 +446,10 @@ footer a:hover { color: #CCC; }
     display: none;
   }
 
+  .navbar {
+    grid-template-columns: 1fr auto;
+  }
+
   .bio-grid {
     grid-template-columns: 1fr;
   }
