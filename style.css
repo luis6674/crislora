@@ -70,7 +70,7 @@ body {
   font-weight: 900;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--red);
+  color: #e8392a;
   text-decoration: none;
   transition: opacity 0.2s;
 }
@@ -100,7 +100,7 @@ body {
 }
 
 .navbar-links span {
-  color: #555;
+  color: #888;
   font-size: 0.6rem;
 }
 
@@ -167,8 +167,9 @@ body {
   margin-bottom: 2.5rem;
 }
 
-.section-title.red  { color: var(--red); }
-.section-title.dark { color: var(--black); }
+.section-title.red   { color: var(--red); }
+.section-title.dark  { color: var(--black); }
+.section-title.light { color: var(--white); }
 
 /* ===================== NUEVO SINGLE ===================== */
 #single {
@@ -219,9 +220,6 @@ body {
   background-color: var(--red-bg);
 }
 
-#video .section-title.dark {
-  color: #1a0503;
-}
 
 .video-wrap {
   width: 100%;
