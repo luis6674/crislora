@@ -84,15 +84,15 @@
         <input id="js_url" name="js_url" type="hidden" value="https://subs.sonymusicfans.com/submit" />
         <input name="form" type="hidden" value="754800" />
         <div class="form-group">
-          <input id="field_email_address" class="form-control" name="field_email_address" type="email" maxlength="60" placeholder="Email *" required>
+          <input id="field_email_address" class="form-control" name="field_email_address" type="email" maxlength="60" placeholder="Email *" aria-label="Email" required>
           <div class="invalid-feedback">Debes proporcionar un email válido</div>
         </div>
         <div class="form-group">
-          <input class="form-control" id="field_first_name" name="field_first_name" type="text" maxlength="30" placeholder="Nombre *" onkeydown="return /[a-z\s]/i.test(event.key)" required>
+          <input class="form-control" id="field_first_name" name="field_first_name" type="text" maxlength="30" placeholder="Nombre *" aria-label="Nombre" onkeydown="return /[a-z\s]/i.test(event.key)" required>
           <div class="invalid-feedback">Introduce tu nombre</div>
         </div>
         <div class="form-group">
-          <input class="form-control" id="field_last_name" name="field_last_name" type="text" maxlength="60" placeholder="Apellidos *" onkeydown="return /[a-z\s]/i.test(event.key)" required>
+          <input class="form-control" id="field_last_name" name="field_last_name" type="text" maxlength="60" placeholder="Apellidos *" aria-label="Apellidos" onkeydown="return /[a-z\s]/i.test(event.key)" required>
           <div class="invalid-feedback">Introduce tus apellidos</div>
         </div>
         <div class="form-group">
@@ -104,15 +104,15 @@
           <div class="invalid-feedback">Selecciona tu país</div>
         </div>
         <div class="form-group">
-          <input id="dob_picker" name="field_dob" type="text" maxlength="10" class="form-control notranslate" placeholder="Fecha de nacimiento *" required>
+          <input id="dob_picker" name="field_dob" type="text" maxlength="10" class="form-control notranslate" placeholder="Fecha de nacimiento *" aria-label="Fecha de nacimiento" required>
           <div class="invalid-feedback">Introduce tu fecha de nacimiento</div>
         </div>
         <div class="form-group">
-          <input class="form-control" id="field_postal_code" name="field_postal_code" type="text" maxlength="20" placeholder="Código postal *" required>
+          <input class="form-control" id="field_postal_code" name="field_postal_code" type="text" maxlength="20" placeholder="Código postal *" aria-label="Código postal" required>
           <div class="invalid-feedback">Introduce tu código postal</div>
         </div>
         <div class="form-group">
-          <span class="mobile-label">Móvil *</span><input class="form-control" id="phone" type="tel" required><span id="error-msg" class="hide"></span>
+          <span class="mobile-label">Móvil *</span><input class="form-control" id="phone" type="tel" aria-label="Móvil" required><span id="error-msg" class="hide"></span>
           <div class="invalid-feedback">Introduce tu teléfono móvil</div>
         </div>
         <input type="checkbox" name="triggered_sends[]" id="confirmation_email" class="display-none" checked="checked" value=""><input type="checkbox" name="triggered_sends[]" id="ts-for-ml-0" class="triggered_sends display-none"  value="">
