@@ -70,7 +70,7 @@ body {
   font-weight: 900;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--red);
+  color: var(--white);
   text-decoration: none;
   transition: opacity 0.2s;
 }
